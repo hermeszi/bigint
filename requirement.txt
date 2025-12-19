@@ -8,3 +8,5 @@ Create a class bigint that will store an arbitrary precision unsigned integer.
 Your class must support addition, comparison, and "digitshift" (like bitshift but instead of shifting the bits, you will shift the digits in base 10, e.g., (42 << 3 = 42000) and (1337 >> 2 = 13).
 
 Your bigInt must be printable with the << operation (in base 10) and output shouldn't contain any leading zeroes.
+
+Hint see: https://austinhenley.com/blog/bignum1.html
